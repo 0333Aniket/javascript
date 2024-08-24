@@ -1,0 +1,19 @@
+var Selcontaner = document.querySelector("#contaner")
+
+var love = document.querySelector("i")
+
+check =0
+Selcontaner.addEventListener("dblclick", function () {
+    if (check==0) {
+        love.style.transform="translate(-50%,-50%) scale(1)"
+        setTimeout(function(){
+            love.style.transform="translate(-50%,-50%) scale(0)"
+        },5000)
+        check=1
+    } else {
+        love.style.transform="translate(-50%,-50%) scale(0)"
+        check=0
+    }
+    
+   
+})

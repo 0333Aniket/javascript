@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: aqua;
+    display:flex;
+    align-items: center; 
+    justify-content:center;
+}
+#contaner{
+    height: 600px;
+    width: 320PX;
+    background-color:white;
+    position: relative;
+    border-radius: 20px;
+    padding: 10px ;
+}
+
+#Abhi_img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+#contaner i{
+    color:#d14695;
+    font-size: 80px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform:translate(-50%,-50%) scale(0) ;
+    transform: all ease 0.4 ;
+    transition-timing-function:ease-in-outs;
+}
